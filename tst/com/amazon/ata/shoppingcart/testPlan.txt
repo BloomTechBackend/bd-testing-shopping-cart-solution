@@ -1,0 +1,15 @@
+__addItem()__
+addItem_validItemWithPositiveQuantity_itemAdded()
+addItem_itemNameEmptyString_doesntAddItem()
+addItem_itemNameNull_doesntAddItem()
+addItem_validItemWithNegativeQuantity_returnsFalse()
+addItem_existingItemPositiveQuantity_quantityIsAdded()
+addItem_existingItemNegativeQuantity_quantityIsNotChanged()
+(can test MAX_INT and MIN_INT limits if someone thinks of it)
+
+__updateQuantity()__
+updateQuantity_updateExistingItemWithPositiveQuantity_quantityIsUpdated()
+updateQuantity_updateExistingItemWithZeroQuantity_removesItemFromShoppingCart()
+updateQuantity_updateExistingItemWithNegativeQuantity_quantityIsNotChanged()
+updateQuantity_itemNameEmptyString_returnsFalse()
+updateQuantity_itemNameNull_returnsFalse()
